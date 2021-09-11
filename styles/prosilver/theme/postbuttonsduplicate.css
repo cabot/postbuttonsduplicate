@@ -1,0 +1,16 @@
+.has-profile .post-buttons.postbuttonsduplicate {
+	position: static;
+	float: right;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	opacity: 0;
+	transition: opacity 0.5s linear;
+}
+
+.has-profile:hover .post-buttons.postbuttonsduplicate {
+	opacity: 1;
+}
+
+.has-profile .post-buttons.postbuttonsduplicate + div {
+	clear: right;
+}

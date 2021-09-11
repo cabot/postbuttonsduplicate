@@ -1,0 +1,30 @@
+{
+    "name": "cabot/postbuttonsduplicate",
+    "type": "phpbb-extension",
+    "description": "Affiche un duplicata des boutons d'actions (citer, modifier, etc.) après les messages",
+    "homepage": "https://cabotweb.fr",
+    "version": "1.0.1",
+    "keywords": [
+        "phpbb",
+        "extension"
+    ],
+    "license": "GPL-2.0-only",
+    "authors": [
+        {
+            "name": "cabot",
+            "homepage": "http://cabotweb.fr",
+            "role": "SushiMaker"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "composer/installers": "~1.0.0",
+        "phpbb/phpbb": ">=3.2"
+    },
+    "extra": {
+        "display-name": "Post buttons duplicate",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.2"
+        }
+    }
+}
